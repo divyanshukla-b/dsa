@@ -22,7 +22,7 @@ int LinkedList(struct node *ptr){
     
 }*/
 
-/*struct node *DeleteAtindex(struct node *head,int index)
+struct node *DeleteAtindex(struct node *head,int index)
 {
     struct node *p =head;
     struct node *q =p->next;
