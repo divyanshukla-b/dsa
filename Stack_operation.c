@@ -51,7 +51,7 @@ struct Node* push(struct Node* top, int x){
  
 int pop(struct Node* tp){
     if(isEmpty(tp)){
-        printf("Stack Underflow\n");
+        printf("Stack Underflowyyy\n");
     }
     else{
         struct Node* n = tp;
