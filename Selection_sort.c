@@ -34,7 +34,7 @@ int main()
 
     display(arr,6);
 
-    printf("\n");
+    //printf("\n");
 
    SelectionSort(arr,6);
     display(arr,6);
