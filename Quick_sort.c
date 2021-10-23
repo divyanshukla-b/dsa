@@ -48,7 +48,7 @@ int QuickSort(int arr[],int low,int high)
    int partitionIndex;
    if(low<high){
     
-    partitionIndex=partition(arr,low,high);
+    partitionIndex=partition(arr,low,high);//partition
     QuickSort(arr,low,partitionIndex-1);//sort left subrray:
     QuickSort(arr,partitionIndex+1,high);//sort right subarray:
    }
