@@ -63,7 +63,7 @@ int main()
     forth->Next = head;
 
       LinkedList(head);
-      printf("\n");
+      
 
       head =insertAtFirst(head,66);
       LinkedList(head);
